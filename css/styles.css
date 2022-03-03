@@ -5,3 +5,9 @@
 body{
     background-image: url(/images/ghana.jpg);
 }
+.header{
+    margin-top: 10px;
+}
+.display_{
+    text-align: center;
+}
