@@ -18,17 +18,17 @@
         <form class="row g-3" id="akanform" onsubmit="nameGenerator()">
             <div class="part 1">
                 <label for="year" class="form-label">Year</label>
-                <input type="number" class="form-control" id="year" placeholder="Year">
+                <input type="number" class="form-control" id="year" placeholder="Year" min="1900" max="2021" required>
             </div>
 
             <div class="part 2">
                 <label for="month" class="form-label">Month</label>
-                <input type="number" class="form-control" id="month" placeholder="month">
+                <input type="number" class="form-control" id="month" placeholder="month" min="01" max="12" required>
             </div>
 
             <div class="part 3">
                 <label for="day" class="form-label">Day</label>
-                <input type="number" class="form-control" id="day" placeholder="day">
+                <input type="number" class="form-control" id="day" placeholder="day" min="01" max="12" required>
             </div>
 
             <div class="part 4">
@@ -50,7 +50,7 @@
             </div>
 
             <div class="part 5">
-                <button type="submit" class="btn" id="submit-name">Submit</button>
+                <button type="submit" class="btn" id="submit-name"><strong>Submit</strong></button>
             </div>
 
             <div class="display_">
