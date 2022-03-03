@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akan Form</title>
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div class="akanform">
+        <form class="row g-3" id="akanform" onsubmit="nameGenerator()">
+            <div class="col-md-12">
+                <label for="year" class="form-label">Year</label>
+                <input type="number" class="form-control" id="year" placeholder="Year">
+            </div>
+        </form>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
