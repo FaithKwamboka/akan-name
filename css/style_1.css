@@ -1,0 +1,11 @@
+.About{
+    background-image: url(/images/ghana.jpg);
+    height: 350px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 150px;
+    text-align: center;
+}
+.About p{
+    
+}
