@@ -28,7 +28,7 @@
 
             <div class="part 3">
                 <label for="day" class="form-label">Day</label>
-                <input type="number" class="form-control" id="day" placeholder="day" min="01" max="12" required>
+                <input type="number" class="form-control" id="day_" placeholder="day" min="01" max="31" required>
             </div>
 
             <div class="part 4">
@@ -58,6 +58,12 @@
                 <p id="result"></p>
             </div>
         </form>
+    </div>
+    <div class="container" id="output">
+        <div class="alert alert-success" role="alert">
+            Good job! You were born on <span id="day"></span> and your Akan name is <span id="name"></span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
     </div>
     <script src="./js/script.js"></script>
 </body>

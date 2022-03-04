@@ -27,3 +27,4 @@ let weekDay = [
     "Saturday"
 ];
 
+document.getElementById("output").style.display = "none";
