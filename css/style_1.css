@@ -1,12 +1,25 @@
 .About{
-    background-color: aquamarine;
-    height: 400px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 150px;
+    background-image: url(/images/cool\ pic.jpg);
+    height: 700px;
+    padding: 100px;
     text-align: center;
+    color: black;
 }
 img{
     float: left;
 }
-    
+.how-sec{
+    background-image: url(/images/ghana-1.jpg);
+    height: 700px;
+    padding: 100px;
+}
+.how{
+    padding: 10px;
+    text-align: center;
+    color: blueviolet;
+    padding: 10px;
+}
+.col{
+    height: 400px;
+    padding: 30px;
+}
