@@ -1,3 +1,37 @@
+header{
+    background-color: white);
+    height: 40px;
+    width: 90%;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  nav .logo p{
+    align-items: center;
+    color: rgb(226, 162, 43);
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    text-indent: 80px;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15;
+    position: relative;
+    text-transform: uppercase;
+    }
 .About{
     background-image: url(/images/cool\ pic.jpg);
     height: 700px;
@@ -22,4 +56,6 @@ img{
 .col{
     height: 400px;
     padding: 30px;
+    text-align: center;
+    align-content: center;
 }
