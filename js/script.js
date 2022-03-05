@@ -71,6 +71,8 @@ function calculateDay() {
     let YY = year.slice(2, 4);
 
     let dayOfWeek = Math.floor((((Number(CC) / 4) - 2 * Number(CC) - 1) + ((5 * Number(YY) / 4)) + ((26 * (Number(MM) + 1) / 10)) + Number(DD)) % 7);
-    console.log dayOfWeek;
+    console.log(dayOfWeek);
 }
+
+
 
