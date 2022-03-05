@@ -1,3 +1,4 @@
+//Defining Variables
 let maleAkanName = [
     "Kwasi",
     "Kwadwo",
@@ -73,14 +74,3 @@ function calculateDay() {
     console.log dayOfWeek;
 }
 
-function getAkanName() {
-    let gender = getGender();
-    let d = calculateDay();
-    let akanName = "";
-    if (gender === "male") {
-        akanName = maleAkanName[d];
-    } else {
-        akanName = femaleAkanName[d];
-    }
-    return akanName
-}
