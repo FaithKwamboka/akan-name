@@ -1,14 +1,14 @@
 #date_error {
     color: red;
     background-color: pink;
-    width: 270px;
+    width: 150px;
     display: none;
 }
 
 #month_error {
     color: red;
     background-color: pink;
-    width: 270px;
+    width: 150px;
     display: none;
 }
 
@@ -17,7 +17,7 @@ h1 {
     margin-top: 80px;
 }
 .container {
-    background-color: aquamarine;
+    background-color:blue;
     color: white;
     width: 600px;
     height: 500px;
@@ -26,6 +26,24 @@ h1 {
 }
 
 .container .day {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.container .month {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.container .year {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.container .gender {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
