@@ -1,7 +1,17 @@
 # Akan Name Generator
-#### This is a website that takes in your date of birth and determines the day you were born.Based on your gender and day of birth, It then goes aheead to generate a cool Ghanian Akan name for you., 05/03/2022
+05/03/2022
 #### By **Faith Kwamboka Okong'o**
 ## Description
+* THis is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+
+x-special/nautilus-clipboard
+copy
+file:///home/kwamboka/Pictures/Akan.png
+
+x-special/nautilus-clipboard
+copy
+file:///home/kwamboka/Pictures/Akan_1.png
+
 
 ## Setup/Installation Requirements
 * Open your terminal (CTRL ALT T)
