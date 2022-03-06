@@ -7,6 +7,7 @@
 
 #month_error {
     color: red;
+    text-align: center;
     background-color: pink;
     width: 150px;
     display: none;
@@ -14,7 +15,11 @@
 
 h1 {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
 }
 .container {
     background-color:blue;

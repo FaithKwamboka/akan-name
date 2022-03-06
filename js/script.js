@@ -25,7 +25,11 @@ function submit() {
     else if(MM <= 0 || MM > 12){
         alert("enter a valid month");
         month_error.style.display = "block";
-    } 
+    }
+    else if(MM <= 0 || MM > 12){
+        alert("enter a valid month");
+        month_error.style.display = "block";
+    }  
     if(gender === "male"){
         document.getElementById("result").innerHTML = "Your Akan name is " + akanMaleName[dayOfWeek]
     }
