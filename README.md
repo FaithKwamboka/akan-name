@@ -4,18 +4,9 @@
 ## Description
 * THis is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
-x-special/nautilus-clipboard
-copy
-file:///home/kwamboka/Pictures/Akan.png
-
-x-special/nautilus-clipboard
-copy
-file:///home/kwamboka/Pictures/Akan_1.png
-
-
 ## Setup/Installation Requirements
 * Open your terminal (CTRL ALT T)
-* Clone the project from github clone
+* Clone the project from github clone https://FaithKwamboka.github.io/akan-name/
 * Open the folder in your text editor prefferably VS-code (code .)
 
 ## Behaviour Driven Development
@@ -29,7 +20,7 @@ This project doesn't possess any known bugs currently
 This Project used the following technologies:
 * HTML 
 * CSS
-*JavaScript
+* JavaScript
 
 ## Support and contact details
 Incase of any issues, questions, ideas or concerns. Reach out to me via okongofaith3@gmail.com.
