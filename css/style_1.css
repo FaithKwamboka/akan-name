@@ -41,7 +41,7 @@ header{
   width: 100%;
 }
 .About{
-    background-image: url(/images/cool.jpg);
+    background-image: url(../images/cool.jpg);
     height: 700px;
     padding: 60px;
     text-align: center;
@@ -57,7 +57,7 @@ img{
     float: left;
 }
 .how-sec{
-    background-image: url(/images/ghana-1.jpg);
+    background-image: url(../images/ghana-1.jpg);
     height: 700px;
     padding: 100px;
     margin-top: 30px;
