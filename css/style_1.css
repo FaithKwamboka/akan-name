@@ -36,6 +36,10 @@ header{
     position: relative;
     text-transform: uppercase;
     }
+.container{
+  display: flexbox;
+  width: 100%;
+}
 .About{
     background-image: url(/images/cool\ pic.jpg);
     height: 700px;
@@ -56,6 +60,9 @@ img{
     background-image: url(/images/ghana-1.jpg);
     height: 700px;
     padding: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
 }
 .how{
     padding: 10px;
